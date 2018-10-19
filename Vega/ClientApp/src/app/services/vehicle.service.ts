@@ -14,4 +14,5 @@ export class VehicleService {
 
   getFeatures() {
     return this.http.get('/api/features');
+  }
 }
